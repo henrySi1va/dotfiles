@@ -85,6 +85,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias vim='nvim'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
