@@ -284,6 +284,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = '*',
 })
 
+vim.opt.conceallevel = 2
+
 -- [[ Configure indent-blankline ]]
 -- See `:help ibl.setup()`
 require("ibl").setup {
