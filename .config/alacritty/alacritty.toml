@@ -1,2 +1,10 @@
 [font.normal]
 family = "MesloLGM Nerd Font Mono"
+
+[font]
+size = 16.0
+
+[window]
+startup_mode = "Maximized"
+title = "terminal"
+dynamic_title = false
