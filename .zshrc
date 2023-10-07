@@ -72,6 +72,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# Plugin configs.
+# tmux
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOQUIT=true
+ZSH_TMUX_AUTOSTART_ONCE=false
+ZSH_TMUX_AUTOCONNECT=false
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -79,7 +86,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
          zsh-vi-mode
-         zsh-autosuggestions)
+         zsh-autosuggestions
+         tmux)
 
 source $ZSH/oh-my-zsh.sh
 
